@@ -1,0 +1,16 @@
+{
+  "name": "parstoken",
+  "scripts": {
+    "compile": "cd node_modules/.bin/ && truffle compile",
+    "migrate": "cd node_modules/.bin/ && truffle migrate",
+    "test": "cd node_modules/.bin/ && truffle test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.5",
+    "truffle": "^4.1.3",
+    "zeppelin-solidity": "^1.7.0"
+  }
+}
